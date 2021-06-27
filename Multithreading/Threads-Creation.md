@@ -193,3 +193,29 @@ public class Main {
 }
 
 ```
+
+## Case study: Multi-executor
+```java
+import java.util.*;
+
+public class MultiExecutor {
+
+    List<Runnable> tasks = new ArrayList<>();
+
+    /* 
+     * @param tasks to executed concurrently
+     */
+    public MultiExecutor(List<Runnable> tasks) {
+        this.tasks = tasks;
+    }
+
+    /**
+     * Starts and executes all the tasks concurrently
+     */
+    public void executeAll() {
+        for (Runnable task: tasks) {
+            new Thread(task).start();
+        }
+    }
+}
+```
