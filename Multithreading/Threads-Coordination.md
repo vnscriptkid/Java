@@ -6,6 +6,7 @@
 - Give examples about deamon threads?
 - What are 2 ways of responding to interrupt signals?
 - How to prevent a thread from blocking our app from exiting?
+- Does System.in.read() respond to interrupt?
 
 ## Diagrams
 - Threads interrupt
@@ -48,6 +49,7 @@ public class Main {
                 Thread.sleep(50000);
             } catch (InterruptedException e) {
                 System.out.println("Received interrupt signal: " + e.getMessage());
+                return;
             }
         }
     }
