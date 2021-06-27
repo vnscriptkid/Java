@@ -2,24 +2,51 @@
 
 ### Questions list
 - Why do we need multi-threading?
+  - Performance
+  - Reponsiveness
 - What is the difference between responsiveness vs performance?
+  - Responsiveness can be achieved by concurrency
+  - Performance can be achieved by parallelism
 - Give an example about poor responsiveness with a single thread?
+  - Request from one client that requires server a long time to process, thus blocking requests from other clients
 - Give an example about responsiveness in User Interface?
-- What is concurrency?
+  - User clicks on Play button watching movie on Netflix, the experience is smooth and there's no delay
+- What is concurrency? Doing many tasks at the same time 
 - Why don't we need multiple cores to achieve concurrency?
+  - With single core CPU, we can run small piece of code from each thread, creating illusion of they run in parallel
 - What is the difference between concurrency và parallelism?
-- How to trully achieve parallel processing?
+  - Parallelism is through multi-threading on CPU with multiple cores
+  - Concurrency is process of doing a little bit of everything
+- How to trully achieve parallel processing? Multiple cores CPU
 - By what do we achieve reponsiveness and performance?
 - What is the difference between single-threaded vs multi-threaded programming?
 - What is the role of OS?
+  - Serves as a layer of abtraction, helping application to use resources like: hard disk, CPU
 - Which elements does a process contain?
-- What is a process? context or instance of an application
+  - Metadata
+  - Files that opened by program
+  - Heap memory
+  - At least 1 main thread
+  - Instructions
+- What is a process? context or instance of an application.
 - What are threads, Where they live and what they contain?
+  - A thread is a flow of execution through the process code
+  - Contains: Stack, program counter (stores address of next instruction to execute)
 - 1 process always contains at most 1 thread, is it true or false?
+  - False, at least 1 thread (main thread)
 - What threads share?
+  - Metadata
+  - Files
+  - Code
+  - Heap memory
 - What is stack? Where does it reside in?
+  - Stores functions in order of execution and local vars, LIFO
+  - 1 thread has 1 stack
 - What is instruction pointer? Where is it used in?
+  - Store the next instruction to be executed
+  - In stack
 - Why stack has its own stack and instruction pointer?
+  - So that different functions can run at the same time
 - What are pros and cons of multi-threading?
 - What are the impacts of performance?
 - What is context switch and why we need it?
