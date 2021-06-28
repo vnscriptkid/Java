@@ -75,3 +75,13 @@
 - What are the assumptions of having n equal to number of cores in order to optimize result?
 - Costs of breaking a task into many subtasks and aggregate the result?
 - When does the throughput matter?
+- We are running an HTTP server on a single machine.
+Handling  of the HTTP requests is delegated to a fixed-size pool of threads.
+Each request is handled by a single thread from the pool by performing a blocking call to an external database which may take a variable duration, depending on many factors.
+After the response comes from the database, the server thread sends an HTTP response to the user.
+Assuming we have a 64 core machine.
+What would be the optimal thread pool size to serve the HTTP request?
+
+Since the threads are not in the "running" state, all the time while serving the incoming requests, we may have all of the threads blocked on IO (waiting for a response from the database), but the CPU is not actually executing any tasks). So if we create more threads to handle the incoming requests, we will get better throughput. There is no way of knowing the best number of threads ahead of time since more threads means more requests can be handled, but also more overhead and context switching. So we need to perform a load test
+
+
