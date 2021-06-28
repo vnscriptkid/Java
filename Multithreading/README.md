@@ -50,22 +50,37 @@
 - What are pros and cons of multi-threading?
 - What are the impacts of performance?
 - What is context switch and why we need it?
+  - Is the process of CPU turning his attention from one thread to another thread
 - What is the price of multitasking?
+  - Switching between threads
 - What are costs of using multi-threads?
+  - Save data of current thread
+  - Load data from another thread to CPU
 - What is thrashing?
-- With what context switch happens?
+  - There's are too many threads, means too many context switching
+- With what context switch happens? Threads and proccesses
 - Compare context switching between threads vs between proccesses? Which is more expensive? Why?
+  - Context swithching between threads is less expensive
+  - Threads store way less data than proccesses
+  - Threads in the same process shares lot of common things
 - What happens when threads switching happens?
 - What are the problems with FCFS?
+  - Tasks come later might wait for a long time before it's executed
 - What are the problems with Shortest Job First?
+  - Tasks with long execution time might wait for a long time before it's executed 
 - How actually OS schedules threads?
+  - CPU time is divided into units as epochs
+  - Every task has priority = static + bonus
 - What is dynamic priority? How it's caculated? Where it's used?
-- Who sets static priority?
+  - In order to decide which task should be executed first
+- Who sets static priority? Developers
 - Who control the bonus - a variable in dynamic priority?
 - What is epoch?
 - What is starvation? Whet it happens? How to prevent it?
 - List out types of threads? UI threads, Computational threads
 - When to use multiple threads and when to use multiple processes (like Chrome) for 1 program 
+  - Multithreads program: Threads share lot of common data
+  - Multiprocesses program: No common data between processes, more isolation less overhead.
 
 ### Diagrams
 
