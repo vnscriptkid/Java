@@ -17,3 +17,25 @@
 ![image](https://user-images.githubusercontent.com/28957748/123678088-11b5dc80-d870-11eb-8cd0-5c957103b2fa.png)
 
 ![image](https://user-images.githubusercontent.com/28957748/123678159-2abe8d80-d870-11eb-82b0-32565dab831c.png)
+
+#### Resources
+![image](https://user-images.githubusercontent.com/28957748/123681085-922a0c80-d873-11eb-873c-2f667145f007.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123679064-48d8bd80-d871-11eb-8176-a8f76c3d9610.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123679298-8d645900-d871-11eb-8bcd-e4fef99e34bd.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123679341-98b78480-d871-11eb-9b7e-27faf5a1c3c0.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123679629-e502c480-d871-11eb-8457-a888132e29b0.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123680376-d36dec80-d872-11eb-82a8-7b6012a8fdcc.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123680718-3bbcce00-d873-11eb-9e5d-5787b927abf0.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123680815-52fbbb80-d873-11eb-92bc-84de3e4eba60.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123680973-7161b700-d873-11eb-9ccd-5d08b82c6478.png)
+
+#### TODO: Code out inventory example
+
