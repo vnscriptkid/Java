@@ -36,6 +36,36 @@
 
 ![image](https://user-images.githubusercontent.com/28957748/123632985-ce914480-d842-11eb-9f8e-b72a5f69d202.png)
 
+#### Increase throughput 1
+
+![image](https://user-images.githubusercontent.com/28957748/123655033-d52ab680-d858-11eb-934c-5f7296982d24.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123656442-21c2c180-d85a-11eb-8314-4d12204685da.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123656587-41f28080-d85a-11eb-9153-06585d8c0ceb.png)
+
+#### Increase throughput 2: Schedule each task on separate thread
+
+![image](https://user-images.githubusercontent.com/28957748/123656678-56367d80-d85a-11eb-9cea-390445680199.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123656758-68182080-d85a-11eb-963a-9f353527e6b4.png)
+
+#### Thread pool
+- Create threads once, reuse for future tasks
+
+![image](https://user-images.githubusercontent.com/28957748/123658203-b4179500-d85b-11eb-80c7-486cee2e2cb4.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123658358-d9a49e80-d85b-11eb-9724-2813dad5277c.png)
+
+#### Summary
+![image](https://user-images.githubusercontent.com/28957748/123658533-048ef280-d85c-11eb-91f5-6fda085639d6.png)
+
+#### Analyze
+![image](https://user-images.githubusercontent.com/28957748/123664124-42dae080-d861-11eb-8368-0651ef9f707c.png)
+
+#### Summary 2
+![image](https://user-images.githubusercontent.com/28957748/123664376-7f0e4100-d861-11eb-833c-17805ea5818d.png)
+
 ## Question list
 - 2 metrics to measure performance
 - What is latency and throughput?
@@ -44,3 +74,4 @@
 - What might be the consequences of adding more threads than number of cores?
 - What are the assumptions of having n equal to number of cores in order to optimize result?
 - Costs of breaking a task into many subtasks and aggregate the result?
+- When does the throughput matter?
