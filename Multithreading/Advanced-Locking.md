@@ -1,3 +1,5 @@
+## Reentrant Lock
+
 ![image](https://user-images.githubusercontent.com/28957748/123784810-07442300-d902-11eb-9e89-a1c0a7a5925d.png)
 
 ![image](https://user-images.githubusercontent.com/28957748/123784939-2478f180-d902-11eb-9e1e-c5c0a62219a0.png)
@@ -17,6 +19,8 @@
 ![image](https://user-images.githubusercontent.com/28957748/123785720-12e41980-d903-11eb-8e4d-76017b4ac6f6.png)
 
 ![image](https://user-images.githubusercontent.com/28957748/123785850-30b17e80-d903-11eb-9833-3b754ae0d53a.png)
+
+## LockInterruptibly
 
 ![image](https://user-images.githubusercontent.com/28957748/123786088-825a0900-d903-11eb-9db0-a247835c9aac.png)
 
