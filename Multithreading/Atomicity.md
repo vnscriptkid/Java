@@ -40,6 +40,8 @@
 ## Metrics
 ![image](https://user-images.githubusercontent.com/28957748/123733707-2fae2c00-d8c6-11eb-9421-75eae812c6a9.png)
 
+![image](https://user-images.githubusercontent.com/28957748/123736405-3ee3a880-d8cb-11eb-9d01-7bef8adb7a92.png)
+
 
 ## TODO 1: Fix inventory code with locking using 2 ways
 ## TODO 2: Code metrics to measure atomic operation time
