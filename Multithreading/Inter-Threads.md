@@ -15,7 +15,20 @@
 
 ![image](https://user-images.githubusercontent.com/28957748/123846874-18138980-d940-11eb-8300-b0c14ce7ed9f.png)
 
+![image](https://user-images.githubusercontent.com/28957748/123986538-97f92c80-d9f0-11eb-9efb-11e7478f02c1.png)
+
+## Producer - Consumer
+
 ![image](https://user-images.githubusercontent.com/28957748/123847255-953efe80-d940-11eb-8c67-5245724e7a22.png)
 
 ![image](https://user-images.githubusercontent.com/28957748/123847505-da633080-d940-11eb-8bff-3639078aec4c.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123987326-4a30f400-d9f1-11eb-841b-824f5b4dff34.png)
+
+![image](https://user-images.githubusercontent.com/28957748/123987640-8fedbc80-d9f1-11eb-8b9d-e1786b57572b.png)
+
+## Summary 
+![image](https://user-images.githubusercontent.com/28957748/123988200-025e9c80-d9f2-11eb-8a50-c44017abc61b.png)
+
+## Inter-thread communication
 
